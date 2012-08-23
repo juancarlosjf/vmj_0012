@@ -1,11 +1,11 @@
 <?php $this->pageTitle=Yii::app()->name; ?>
 
-<?php $this->beginWidget('bootstrap.widgets.BootHero', array(
+<?php $this->beginWidget('bootstrap.widgets.TbHeroUnit', array(
     'heading'=>'Hola, sea Bienvenido',
 )); ?>
  
     <p>Sea bienvenido al sistema de biblioteca de la UJCM (prototipo), sientase cómodo de enviarnos comentarios y sugerencias para la mejora del sistema.</p>
-    <p><?php $this->widget('bootstrap.widgets.BootButton', array(
+    <p><?php $this->widget('bootstrap.widgets.TbButton', array(
         'type'=>'primary',
         'size'=>'large',
         'label'=>'Saber mas',

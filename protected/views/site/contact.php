@@ -21,7 +21,7 @@ Si tiene alguna duda puede contactarnos llenando el siguiente formulario</p>
 
 <div class="form">
 
-<?php $form=$this->beginWidget('bootstrap.widgets.BootActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'contact-form',
 	'htmlOptions'=>array('class'=>'well'),
 	'enableClientValidation'=>true,
